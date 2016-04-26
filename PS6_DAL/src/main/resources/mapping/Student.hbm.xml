@@ -11,17 +11,12 @@
 
 		<property name="FirstName" type="string">
 			<column name="FirstName" length="20" not-null="true" />
-		</property>
 		<property name="MiddleName" type="string">
 			<column name="MiddleName" length="20" not-null="true" />
-		</property>
 
 		<property name="LastName" type="string">
 			<column name="LastName" length="20" not-null="true" />
-		</property>
-
 		<property name="DOB" type="date">
 			<column name="DOB" length="7" not-null="true" />
-		</property>
 	</class>
 </hibernate-mapping>
